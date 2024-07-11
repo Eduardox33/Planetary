@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Edit Pull</h1>
+        <div>
+            <input id="pull" value="50"  autocomplete="off">
+            <button onclick="changePull()">SUN PULL</button>
+        </div>
+        <h1>New planet attributes</h1>
+        <div>
+            <input id="xspeed" placeholder="X-speed" autocomplete="off">
+            <input id="yspeed" placeholder="Y-speed" autocomplete="off">
+        </div>
+        <h1>Clear Planets</h1>
+        <button onclick="clearP()">CLEAR</button>
+    </div>
+
+    <div class="space" id="space">
+        <div class="sun"></div>
+    </div>
+
+
+    <script src="mlogic.js"></script>
+</body>
+</html>
